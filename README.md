@@ -81,7 +81,6 @@ operations. It promotes network decentralization.
 - A rollup contract logs events so that off-chain analyzers can track who submitted each block.
 
 - A mapping can store the block hash and operator address, like in this
-  > sample code:
 ```
 mapping(bytes32 => address) public rollupProposers;
 
@@ -89,7 +88,6 @@ function submitRollup(bytes32 _blobHash) external {
     rollupProposers[_blobHash] = msg.sender;
     emit RollupSubmitted(msg.sender, _blobHash, block.timestamp);
 }
-
 ```
 
 ### **3) Ways to Use L2 Block Submitter Information** {#ways-to-use-l2-block-submitter-information}
@@ -127,8 +125,7 @@ function submitRollup(bytes32 _blobHash) external {
     - Fewer bytes for the same number of transactions leads to bonus payments.
 
     - For instance:  
-      > ![](media/image1.png){width="3.713542213473316in"
-      > height="0.4052471566054243in"}  
+      > ![](https://github.com/sopia19910/BLOB-Data-and-Rollup-Operator-Reward/blob/main/images/20250303_153454.png)
       A higher ratio results in greater rewards.
 
 4.  **Data Availability Period**
