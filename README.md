@@ -125,7 +125,8 @@ function submitRollup(bytes32 _blobHash) external {
     - Fewer bytes for the same number of transactions leads to bonus payments.
 
     - For instance:  
-      > ![](https://github.com/sopia19910/BLOB-Data-and-Rollup-Operator-Reward/blob/main/images/20250303_153454.png)
+      ![](https://github.com/sopia19910/BLOB-Data-and-Rollup-Operator-Reward/blob/main/images/20250303_153454.png)
+
       A higher ratio results in greater rewards.
 
 4.  **Data Availability Period**
