@@ -74,7 +74,7 @@ operations. It promotes network decentralization.
 
 - It can grant extra incentives if data remains available on-chain for a required duration (e.g. with EIP-4844 blobs).
 
-### **2) How L1 Identifies the L2 Block Submitter** {#how-l1-identifies-the-l2-block-submitter}
+### **2) How L1 Identifies the L2 Block Submitter**
 
 - L1 does not store the operator's identity explicitly, but it checks the transaction's msg.sender.
 
@@ -90,7 +90,7 @@ function submitRollup(bytes32 _blobHash) external {
 }
 ```
 
-### **3) Ways to Use L2 Block Submitter Information** {#ways-to-use-l2-block-submitter-information}
+### **3) Ways to Use L2 Block Submitter Information**
 
 1.  **Reward Distribution**
 
@@ -108,7 +108,7 @@ function submitRollup(bytes32 _blobHash) external {
 
 ### 
 
-### **4) Reward Calculation Criteria** {#reward-calculation-criteria}
+### **4) Reward Calculation Criteria**
 
 1.  **Blob Size**
 
@@ -133,7 +133,7 @@ function submitRollup(bytes32 _blobHash) external {
 
     - EIP-4844 blobs stay on-chain for around 2--3 weeks. The operator can earn extra rewards if no challenge arises during that period.
 
-### **5) Reward Delivery Methods** {#reward-delivery-methods}
+### **5) Reward Delivery Methods**
 
 1.  **Smart Contract--Based Reward**
 
